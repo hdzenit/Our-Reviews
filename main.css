@@ -11,13 +11,21 @@ body{
 }
 
 section{
+    box-sizing: border-box;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.658);
     width: 30vw;
     height: 60vh;
     border: 1px solid black;
     box-shadow:rgba(255, 255, 255, 0.658);
     border-radius: 10px;
-    
+    }
+
+img {
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
     
 }
 
