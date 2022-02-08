@@ -2,29 +2,29 @@ const reviews = [
       
     { 
        id: 1, 
-       name: "Susan Smith", 
-       job: "web developer",
-       img: "https://media.istockphoto.com/photos/portrait-of-smiling-mixed-race-woman-looking-at-camera-picture-id1319763830?b=1&k=20&m=1319763830&s=170667a&w=0&h=wE44n9yP1nrefeqv5DCl5mE3ouU01FNNHeZPR0yDCWA=",
+       name: "John Smith", 
+       job: "WEB DEVELOPER",
+       img: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
        text: "I'm baby woke mlkshk wolf bitters live-edge blue,hammock freegan copper mug whatever cold-pressed",
      }, 
    { 
         id: 2, 
         name: "Linda Jasson", 
-        job: "web designer",
+        job: "WEB DESIGNER",
         img: "https://t3.ftcdn.net/jpg/02/22/10/62/360_F_222106228_NP5f0gXi3JOCgmaTsEyg7RuyKgwDLGuY.jpg",
         text: "I'm baby woke mlkshk wolf bitters live-edge blue,hammock freegan copper mug whatever cold-pressed",
 },
 {
         id : 3, 
-        name : "Betty Clark", 
-        job : "The Boss",
-        img : "https://image.freepik.com/free-photo/satisfied-attractive-girl-holding-something-hand-showing-thumbs-up-approval_1258-19083.jpg",
+        name : "Stiven Clark", 
+        job : "THE BOSS",
+        img : "https://www.jeancoutu.com/globalassets/revamp/photo/conseils-photo/20160302-01-reseaux-sociaux-profil/photo-profil_301783868.jpg",
         text : "I'm baby woke mlkshk wolf bitters live-edge blue,hammock freegan copper mug whatever cold-pressed",
 },
 { 
         id : 4, 
         name : "Kayla Jenkins", 
-        job : "Singer",
+        job : "SINGER",
         img : "https://media.istockphoto.com/photos/confident-woman-picture-id1163683003?k=20&m=1163683003&s=612x612&w=0&h=21P_PIqbioQQs1HKlc3uJ9-jwJLHRvu9FUJ6hY1K-1I=",
         text : "I'm baby woke mlkshk wolf bitters live-edge blue,hammock freegan copper mug whatever cold-pressed",
 }];
@@ -53,7 +53,7 @@ function showPerson(){
     const item = reviews[currentItem];
     img.src = item.img;
     author.textContent = item.name;
-    job.textContent = item.name;
+    job.textContent = item.job;
     info.textContent = item.text;
 }
 
